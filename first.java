@@ -8,9 +8,9 @@ class first {
     for (int i = 1; i < num; i++) {
       res = res * i;
 
-      System.out.println(res);
+      
     }
-    // System.out.println(res);
+    System.out.println(res);
   }
 
   public static void main(String[] args) {
