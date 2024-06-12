@@ -1,2 +1,18 @@
 Overloading =  same neme but different paramiter 
  Overloading= function may or may not have different return types but they musth have different arguments.
+
+
+ constructor is methos special types of memberfunction that is caled automatically when an object is created.  
+ it do't have return type .
+ there are three types of 
+ 1. default constructor == when carete new object than auto called default constructor 
+ 2. copy constructor  
+       public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+ 
+    public Person(Person another) {
+        this(another.name, another.age);
+ }
+ 3. paramiter constructor
