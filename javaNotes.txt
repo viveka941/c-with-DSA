@@ -1,0 +1,41 @@
+Java Source File Structure
+
+  class A{}
+  class B{}
+  class C{}
+
+
+-> Many class in one java File.
+-> Atmost one class one declare with should be public.
+->which one is declare with public class this file 
+   save java programe name.
+->
+class A{}
+class B{}
+public class C {} // this is file should be save C file name is C.java
+
+-> there are multiple public classes this declare wiht public then is given complier error 
+
+
+
+class A{
+  public static void main(String args[]){
+    System.out.println("A class main");
+  }
+}
+
+class B{
+  public static void main(String args[]){
+    System.out.println("B class main);
+  }
+}
+
+class C{
+  public static void main(String args[]){
+    System.out.println("C class main);
+  }
+}
+
+// there are no have public class then you can give any name above class 
+
+
