@@ -16,3 +16,47 @@ Overloading =  same neme but different paramiter
         this(another.name, another.age);
  }
  3. paramiter constructor
+
+
+ multiLeve Inheritance 
+        Class A 
+          ||
+        class B 
+          ||
+        class C 
+MultiPle Inheritance
+ many prents  one child 
+ child can acces all peroperties.
+
+Polymorphism 
+1. complie time 
+    ->Function Overloading
+    (same name diff paramiter) 
+    ->Function Overriding ( in which we redefine the member function of a class which it inherited from its base class) 
+    ->Operator Overloading ()
+2. run time -> Virtual function
+
+
+
+import two types
+1. emplicity import -> import java.util.*;
+2. exlicit  import  -> import java.util.Arraylist ;
+
+Package  -> gorup is data in signal entity 
+class inside  java.long is not require import Package
+
+
+
+java
+    util
+        regex
+            pattern
+
+which one is you can perfer
+1. import java.*;
+2. import java.util.*;
+3. import java.util.regex.*; ✅
+
+
+
+
