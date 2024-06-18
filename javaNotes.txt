@@ -39,3 +39,27 @@ class C{
 // there are no have public class then you can give any name above class 
 
 
+what is default -> within the same current package 
+abstract method -> not complete , something particeal
+what is abstract method
+  abstract method has only declareation not 
+ 1. public abstract void m1(){}
+ 2. public void m1();
+ 3.public abstract void m1();✅
+ 4.public void m1(){};✅
+
+ abstract class test{
+  public abstract void m1();✅
+  public void m1();❌❌
+
+ }
+
+ abstract class ->some resosns partial 
+ no one create object jast partial
+
+// Virtual function is a  member function in the case class that you redefine in th derived class.
+
+ interfaces ->1. any service require specification (SRS) than it is provided can implelmentation
+    2.any contract between clinet and service provider
+    100%,pure,abstract,class
+  

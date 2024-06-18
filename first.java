@@ -8,21 +8,33 @@ class first {
     for (int i = 1; i < num; i++) {
       res = res * i;
 
-      
     }
-  return res;
+    return res;
   }
 
-  public static int nCr(int n ,int r) {
+  public static int nCr(int n, int r) {
     int num = factorial(n);
-    int dum = factorial(r) * factorial(n-r);
-    return num/dum;
+    int dum = factorial(r) * factorial(n - r);
+    return num / dum;
+  }
+
+  public static void pattern(char ch) {
+   
   }
 
   public static void main(String[] args) {
 
     // System.out.println(factorial(4));
-    System.out.println(nCr(5, 2));
+    // System.out.println(nCr(5, 2));
+  
 
+    for (char c = 'd'; c >= 'a'; c--) {
+     for(char a='a'; a<=c ; a++){
+      System.out.print(a+" ");
+     }
+     System.out.println();
+    
+    }
+    
   }
 }

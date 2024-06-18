@@ -38,6 +38,8 @@ Polymorphism
 
 
 
+
+        -<Sourece file>-
 import two types
 1. emplicity import -> import java.util.*;
 2. exlicit  import  -> import java.util.Arraylist ;
@@ -60,3 +62,38 @@ which one is you can perfer
 
 
 
+what is Package -> it is incapsulation machinism to gorup realeted class or interfaces in a signal unit
+  -> nameing confilex
+  ->Modulation
+  -> Maintainbliites
+  ->Security
+
+javac -d . test java // courrent working directory 
+java durgasoft.com.text // 
+
+Package pack1;
+Package pack2; // error given not allow 
+public class Test{
+
+}
+
+
+import java.util.*;
+Package pack1; // pack1 is not allow
+public class test{
+
+}
+
+
+// courrect syntax 
+Package pack1;
+import java.util.*;
+public class test{
+
+}
+
+
+//Oops
+Modifiers
+abstract // if abstract object not creation
+class is final // than child class is not created passible
