@@ -137,6 +137,61 @@ public class Test{
   }
 }
 
+Inheritance->less code , less time,
+Parrent-> common method
+child-> specific method 
+
+Object 
+1.String
+2.stringBuffer
+3.number
+4.Math
+5.Throwable
+          1.exception
+                  1.Runtime exception
+                  2.IOE exception
+          2.Error
 
 
+
+Inheritance types
+1. Single Inheritance
+ 
+  class A ---------------> class B
+
+  class B extends A{
+
+  }
+
+2.Multiple Inheritance
+ class A -------------------------Class B
+       \                          /
+        \                       / 
+         \                     /
+                class  C
+    
+3. Multi-Level
+  class A ------ Class B --------- Class C 
+  class A{}
+  class B extends A{}
+  class C extends B{}
+
+4. Hirrarchical Inheritance
+                 class A
+                 /   |   \
+                /    |    \
+               /     |     \
+       class B   class C   class D
+
+5 Hybrid Inheritance
+
+
+ two types not support in java               
+  1.multiple
+  2. Hybrid
+
+
+
+ 
+  
 
