@@ -63,3 +63,11 @@ what is abstract method
     2.any contract between clinet and service provider
     100%,pure,abstract,class
   
+
+----------------<OOPs>--------------------
+1.Data Hiding:(Encapsulation) ->outside not access data there has getter setter
+what is main purpose data Hiding ->security
+
+abstraction->
+
+
