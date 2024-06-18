@@ -99,3 +99,44 @@ public class Account{
     return balance;
   }
 }
+
+
+Inheritance
+1.IS-A Relasionship
+2.cole reusbliity
+3.extends keyword
+
+
+class P{
+  public void m1(){
+    System.out.println("Parrent");
+  }
+}
+class C extends P{
+  public void m2(){
+     System.out.println("child");
+  }
+}
+public class Test{
+  public static voi main(String args[]){
+    P p = new P();
+    p.m1();✅
+    p.m2();❌  //cannot find symbol
+
+    C c = new C();
+    c.m1();✅
+    c.m2();✅
+
+     P child = new C(); // not call child 
+    child.m1();✅
+    child.m2(); ❌ // cannot find symbol
+
+    C child1 = new p(); ❌//error: incompatible types: 
+     c.m1();
+    c.m2();
+  }
+}
+
+
+
+
