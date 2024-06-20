@@ -241,5 +241,24 @@ Polymorphism->
       public float m1( float i){
         sout("float arg");
       }
-
+      public static void main(String args[]){
+        Test t = new Test(){
+          t.m1(10);
+          t.m1(54.6f);
+          t.m1('a'); // int arge (char permotated)
+          t.m1(54L);//permosted flaot types
+          t.m1(10.5); // double tyeps error because no have begger then double 
+        }
+      }
      }
+
+overloading- is also know as compile time Polymorphism
+static Polymorphism
+early binding
+automatically permotion in overloading
+byte -> short 
+            \
+             int -> long -> float-> double
+            /
+        char
+
