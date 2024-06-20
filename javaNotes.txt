@@ -187,11 +187,59 @@ Inheritance types
 
 
  two types not support in java               
-  1.multiple
+  1.multiple  -> 1.Dimand Accress 2. Ambigutiy
   2. Hybrid
 
 
+java provided multiple Inheritance in interfaces
+not class 
+
+class A{
+
+}
+class B{
+
+}
+class C extends A,B{ ❌ // this give error Ambigutiy
+
+}
 
  
-  
+  interfaces A{
 
+  }
+  interfaces B{
+    
+  }
+  interfaces C extends A,B{ ✅
+
+  }
+
+
+Multilevel Inheritance ()
+cyclic Inheritance not support in java
+ class A extends B { } ❌
+ class C extends A{ }  ❌
+
+
+Polymorphism->
+  Overloading  
+      public int m1(int i, float f)
+      singnature -> m1(int,float) 
+
+  Overriding 
+     same name but different type of arguments types
+     overloading occurs when methods in the same class have the same method name but different parameters, whereas overriding occurs when two methods have the same method name and parameters.
+
+     public class Test{
+      public void m1(){
+        sout("no arg");
+      }
+      public void m1(int i){
+        sout(" int arg");
+      }
+      public float m1( float i){
+        sout("float arg");
+      }
+
+     }
