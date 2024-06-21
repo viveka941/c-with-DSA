@@ -1,5 +1,4 @@
 
-  
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -28,5 +27,6 @@ public class fibnacchi {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     System.out.println(fib(12));
+
   }
 }

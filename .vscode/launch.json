@@ -1,0 +1,119 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "ArrayBasic",
+      "request": "launch",
+      "mainClass": "ArrayBasic",
+      "projectName": "c-with-DSA_bf53a16e"
+    },
+    {
+      "type": "java",
+      "name": "Overloading",
+      "request": "launch",
+      "mainClass": "Overloading",
+      "projectName": "c-with-DSA_bf53a16e"
+    },
+    {
+      "type": "java",
+      "name": "Test1",
+      "request": "launch",
+      "mainClass": "Test1",
+      "projectName": "c-with-DSA_bf53a16e"
+    },
+    {
+      "type": "java",
+      "name": "abstreacttest",
+      "request": "launch",
+      "mainClass": "abstreacttest",
+      "projectName": "c-with-DSA_bf53a16e"
+    },
+    {
+      "type": "java",
+      "name": "classCalcuation",
+      "request": "launch",
+      "mainClass": "classCalcuation",
+      "projectName": "c-with-DSA_bf53a16e"
+    },
+    {
+      "type": "java",
+      "name": "fibnacchi",
+      "request": "launch",
+      "mainClass": "fibnacchi",
+      "projectName": "c-with-DSA_bf53a16e"
+    },
+    {
+      "type": "java",
+      "name": "first",
+      "request": "launch",
+      "mainClass": "first",
+      "projectName": "c-with-DSA_bf53a16e"
+    },
+    {
+      "type": "java",
+      "name": "gessNo",
+      "request": "launch",
+      "mainClass": "gessNo",
+      "projectName": "c-with-DSA_bf53a16e"
+    },
+    {
+      "type": "java",
+      "name": "inherit1",
+      "request": "launch",
+      "mainClass": "inherit1",
+      "projectName": "c-with-DSA_bf53a16e"
+    },
+    {
+      "type": "java",
+      "name": "packtest",
+      "request": "launch",
+      "mainClass": "packtest",
+      "projectName": "c-with-DSA_bf53a16e"
+    },
+    {
+      "type": "java",
+      "name": "passByValues",
+      "request": "launch",
+      "mainClass": "passByValues",
+      "projectName": "c-with-DSA_bf53a16e"
+    },
+    {
+      "type": "java",
+      "name": "st",
+      "request": "launch",
+      "mainClass": "st",
+      "projectName": "c-with-DSA_bf53a16e"
+    },
+    {
+      "type": "java",
+      "name": "text",
+      "request": "launch",
+      "mainClass": "text",
+      "projectName": "c-with-DSA_bf53a16e"
+    },
+    {
+      "type": "java",
+      "name": "text1",
+      "request": "launch",
+      "mainClass": "text1",
+      "projectName": "c-with-DSA_bf53a16e"
+    },
+    {
+      "type": "java",
+      "name": "text2",
+      "request": "launch",
+      "mainClass": "text2",
+      "projectName": "c-with-DSA_bf53a16e"
+    }
+  ]
+}

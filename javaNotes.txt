@@ -262,3 +262,22 @@ byte -> short
             /
         char
 
+
+class Test3 {
+  public void m1(Object o) {
+    System.out.println("object Version");
+  }
+
+  public void m1(String s) {
+    System.out.println("String version");
+  }
+}
+public static void main(String args[]) {
+   
+      Test3 t3 = new Test3();
+    t3.m1(new Object());
+    t3.m1("Ram");
+     t3.m1(null);//String version output
+  }
+
+  
