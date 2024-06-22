@@ -15,6 +15,16 @@ class C extends P {
   }
 }
 
+class O {
+  public Object m1() {
+    return null;
+  }
+}
+class M extends O{
+  public String m1(){
+    return null;
+  }
+}
 public class cast5Overloading {
 
   public static void main(String[] args) {
@@ -24,8 +34,8 @@ public class cast5Overloading {
     C c = new C();
     c.Marry();
 
-    P p2 =new C();
-      p2.Marry();
+    P p2 = new C();
+    p2.Marry();
 
   }
 }
