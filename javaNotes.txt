@@ -280,4 +280,19 @@ public static void main(String args[]) {
      t3.m1(null);//String version output
   }
 
+
+case 3:
+ public static void m2(int i){
+    System.out.println("General method");
+  }
+  public static void m2(int... i){
+    System.out.println("var arg method");
+  }
+   public static void main(String args[]) {
+
+    m2(100,000000);
+    m2(233);
+   }
+
+  case 5:
   

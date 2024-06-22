@@ -12,6 +12,8 @@ public class setData {
     un.add(40);
     for (int i : un) {
       System.out.print(i+" ");
+    //  System.out.println(un.size()-1);
     }
+    
   }
 }

@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class ArrayBasic {
 
   // while(start <= end){
@@ -66,8 +68,16 @@ public class ArrayBasic {
     System.out.println(sum);
   }
 
+  public static void sort(int arr[]){
+    Arrays.sort(arr);
+    int last = arr.length;
+    int lastEl=arr[last-1];
+    System.out.println(arr[arr.length-1]-1);
+    System.out.println();
+  }
   public static void main(String[] args) {
-    int arr[] = { 2, 4, 6,6 };
+    int arr[] = { 2, 4, 34,6 };
+    sort(arr);
     // swap(arr);
     // for (int i : arr) {
     //   System.out.print(i + " ");
